@@ -1,0 +1,12 @@
+{
+  "name": "use-function-debouncer",
+  "version": "1.0.0",
+  "description": "Exports a debounce(func, delay) function and a cancelDebounce function for debouncing in react apps",
+  "main": "useFunctionDebouncer.js",
+  "author": "Andrew Jones",
+  "license": "MIT",
+  "repository": "https://github.com/aej11a/use-function-debouncer.git",
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
