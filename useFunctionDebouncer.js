@@ -1,5 +1,6 @@
 import {useState} from 'react'
 export const useFunctionDebouncer = () => {
+    //we need to keep the setTimeout timer in state so we can cancel it later if needed
     const [timer, setTimer] = useState(null)
 
     const debounce = (dbFunc, delay) => {
