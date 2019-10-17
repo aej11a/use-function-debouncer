@@ -17,5 +17,5 @@ export const useFunctionDebouncer = () => {
         setTimer(timer)
     }
 
-    return {debounce, cancelDebounce}
+    return [debounce, cancelDebounce]
 }
