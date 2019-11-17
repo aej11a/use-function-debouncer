@@ -1,6 +1,6 @@
 {
   "name": "use-function-debouncer",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Exports a debounce(func, delay) function and a cancelDebounce function for debouncing in react apps",
   "main": "useFunctionDebouncer.js",
   "author": "Andrew Jones",
